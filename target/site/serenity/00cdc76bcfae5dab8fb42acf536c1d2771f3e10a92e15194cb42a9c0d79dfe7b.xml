@@ -1,0 +1,63 @@
+<acceptance-test-run title="Account status matches" name="Account status matches" description="" steps="9" successful="9" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="85" timestamp="2017-11-22T13:45:24.630Z">
+  <user-story id="Calypso Regression" name="Calypso regression" path="Calypso Regression.feature"/>
+  <versions>
+    <version>1.6</version>
+  </versions>
+  <tags>
+    <tag name="" type="feature"/>
+    <tag name="Calypso regression" type="feature"/>
+    <tag name="1.6" type="version"/>
+  </tags>
+  <examples>
+    <datasets>
+      <dataset startRow="0" rowCount="0" name="" description=""/>
+    </datasets>
+    <headers>
+      <header>account</header>
+    </headers>
+    <rows>
+      <row result="SUCCESS">
+        <value>123a</value>
+      </row>
+      <row result="SUCCESS">
+        <value>1234a</value>
+      </row>
+      <row result="SUCCESS">
+        <value>12345a</value>
+      </row>
+    </rows>
+  </examples>
+  <test-group name="[1] {account=123a}" result="SUCCESS">
+    <test-step result="SUCCESS" duration="16">
+      <description>When I trigger an end of day report on 1</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="0">
+      <description>And I trigger an end of day report on 2</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="0">
+      <description>Then account 123a has the same position on both environments</description>
+    </test-step>
+  </test-group>
+  <test-group name="[1] {account=1234a}" result="SUCCESS">
+    <test-step result="SUCCESS" duration="4">
+      <description>When I trigger an end of day report on 1</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="0">
+      <description>And I trigger an end of day report on 2</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="0">
+      <description>Then account 1234a has the same position on both environments</description>
+    </test-step>
+  </test-group>
+  <test-group name="[1] {account=12345a}" result="SUCCESS">
+    <test-step result="SUCCESS" duration="16">
+      <description>When I trigger an end of day report on 1</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="0">
+      <description>And I trigger an end of day report on 2</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="0">
+      <description>Then account 12345a has the same position on both environments</description>
+    </test-step>
+  </test-group>
+</acceptance-test-run>

@@ -1,0 +1,24 @@
+<acceptance-test-run title="Adding Trades" name="Adding Trades" description="" steps="3" successful="3" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="967" timestamp="2017-11-22T13:45:14.002Z">
+  <user-story id="Calypso Regression" name="Calypso regression" path="Calypso Regression.feature"/>
+  <versions>
+    <version>1.6</version>
+  </versions>
+  <tags>
+    <tag name="" type="feature"/>
+    <tag name="Calypso regression" type="feature"/>
+    <tag name="1.6" type="version"/>
+  </tags>
+  <test-step result="SUCCESS" duration="423">
+    <description>Given I set up the enviroment</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="28">
+    <description>And I add the following trades to both environments&#xd;
+| name | status |&#xd;
+| Blah | sdfasdfasdf |&#xd;
+| asdfads | sdfasdfasdf |&#xd;
+| asdfasd | sdfa |</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="0">
+    <description>Then all trades are successfully entered</description>
+  </test-step>
+</acceptance-test-run>

@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: net.thucydides.showcase.cucumber.RunTests
+-------------------------------------------------------------------------------
+Tests run: 20, Failures: 0, Errors: 0, Skipped: 3, Time elapsed: 11.502 sec - in net.thucydides.showcase.cucumber.RunTests

@@ -1,0 +1,21 @@
+<acceptance-test-run title="Performing Actions on trades" name="Performing Actions on trades" description="" steps="2" successful="0" failures="0" skipped="0" ignored="0" pending="2" annotated-result="PENDING" result="PENDING" duration="15" timestamp="2017-11-22T13:45:24.298Z">
+  <user-story id="Calypso Regression" name="Calypso regression" path="Calypso Regression.feature"/>
+  <versions>
+    <version>1.6</version>
+  </versions>
+  <tags>
+    <tag name="" type="feature"/>
+    <tag name="Calypso regression" type="feature"/>
+    <tag name="1.6" type="version"/>
+  </tags>
+  <test-step result="PENDING" duration="0">
+    <description>When I perform the following actions&#xd;
+| Trade | action |&#xd;
+| asdfas | asdfas |&#xd;
+| asdfas | asdfasd |&#xd;
+| asdfasd | asdfasdf |</description>
+  </test-step>
+  <test-step result="PENDING" duration="0">
+    <description>Then all actions are successfully completed</description>
+  </test-step>
+</acceptance-test-run>

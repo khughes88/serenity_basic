@@ -1,0 +1,3 @@
+net\thucydides\showcase\cucumber\RunTests.class
+net\thucydides\showcase\cucumber\steps\Steps.class
+net\thucydides\showcase\cucumber\model\Trade.class
